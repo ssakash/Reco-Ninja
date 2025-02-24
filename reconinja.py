@@ -6,7 +6,7 @@ import shodan
 from fpdf import FPDF
 
 # Replace with your Shodan API key if using port scanning
-SHODAN_API_KEY = "yMO4EXLx0y16ps7hbu6g4qtEbRfDQlJq"
+SHODAN_API_KEY = ""
 
 def get_http_headers(url):
     """Retrieve HTTP headers of a given URL."""

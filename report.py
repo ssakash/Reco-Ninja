@@ -61,7 +61,8 @@ def generate_pdf(output_pdf, urls):
     print(f"[+] PDF Report saved as {output_pdf}")
 
 # Example Usage
-file_path = "endpoints.txt"  # Replace with your actual file
-output_pdf = "urls_Report.pdf"
-urls = parse_httpx_output(file_path)
-generate_pdf(output_pdf, urls)
+def main():
+    file_path = "endpoints.txt"  # Replace with your actual file
+    output_pdf = "urls_Report.pdf"
+    urls = parse_httpx_output(file_path)
+
